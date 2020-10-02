@@ -1,3 +1,35 @@
+
+
+
+install
+```
+sudo rm -rf LCD-show
+git clone https://github.com/addenial/LCD-show.git
+chmod -R 755 LCD-show
+cd LCD-show/
+
+sudo ./MHS35-show
+
+```
+
+go back to using HDMI (3.5 inch screen can't work at same time)
+```
+sudo ./LCD-hdmi
+```
+
+rotate the screen
+```
+sudo ./rotate.sh 90
+```
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
 ### Install drivers in the Ubuntu system
 https://github.com/lcdwiki/LCD-show-ubuntu
 
